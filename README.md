@@ -119,4 +119,16 @@ Kotlin-github地址
         delete rootProject.buildDir
     }
     
+    
+java文件转换为kotlin文件
+
+    选中需要转换的Java文件, 如MainActivity.java,
+    使用Command+Shift+A, 启动Action, 输入Convert, 找到命令, 即可转换
+    
+    或
+    
+    选择Code -> Convert Java File to Kotlin File, 也可以使用快捷键.
+    把.kt的文件剪切到kotlin文件夹下, 即可使用.
+    
+    
 具体使用  详见代码  谢谢
