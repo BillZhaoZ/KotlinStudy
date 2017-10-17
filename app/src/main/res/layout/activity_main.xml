@@ -17,4 +17,15 @@
         android:text="Hello World!"
         android:textColor="@color/colorAccent"/>
 
+
+    <TextView
+        android:id="@+id/tv_toast"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/background_dark"
+        android:gravity="center"
+        android:text="Click me to Show oast"
+        android:textColor="@color/colorAccent"/>
+
 </LinearLayout>
