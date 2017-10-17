@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         tv_hello_world.setOnClickListener(this)
         tv_toast.setOnClickListener(this)
-
     }
 
     /**
@@ -31,7 +30,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.tv_hello_world -> startActivity(Intent(this, HelloWorldActivity::class.java))
 
         // 吐司
-            R.id.tv_toast -> Toast.makeText(this, "Okay,you got me here!!!", Toast.LENGTH_SHORT).show()
+            R.id.tv_toast -> Toast.makeText(this, "Okay，you got me here!!!", Toast.LENGTH_SHORT).show()
         }
     }
 
