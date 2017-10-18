@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         tv_hello_world.setOnClickListener(this)
         tv_toast.setOnClickListener(this)
+        tv_show_var.setOnClickListener(this)
     }
 
     /**
@@ -31,6 +32,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         // 吐司
             R.id.tv_toast -> Toast.makeText(this, "Okay，you got me here!!!", Toast.LENGTH_SHORT).show()
+
+        // 变量页面
+            R.id.tv_show_var -> startActivity(Intent(this, VarActivity::class.java))
+
         }
     }
 

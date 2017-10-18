@@ -3,7 +3,7 @@ package com.zhao.bill.kotlindemo
 /**
  * Created by Bill on 2017/10/17.
  */
-data class Person(
+class Person(
 
         var id: Long,
         var name: String,

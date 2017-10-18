@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".HelloWorldActivity">
         </activity>
+        <activity android:name=".VarActivity">
+        </activity>
     </application>
 
 </manifest>
