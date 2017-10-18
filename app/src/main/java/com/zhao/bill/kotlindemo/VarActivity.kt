@@ -20,5 +20,47 @@ class VarActivity : AppCompatActivity() {
 
         tv_var.text = "名称:$name + 单价:$price" + "数量：$quanity"
 
+
+        val firstName: String = "zhuang"
+        val lastName: String? = "zhao"
+
+        tv_show_method.text = "my name is ${getName(firstName, lastName)}"
     }
+
+    /**
+     * 获取姓名
+     */
+    private fun getName(firstName: String?, lastName: String? = "unKnow"): String {
+
+        if (hasEmpty(firstName, lastName)) {
+            lastName?.let { return@getName "${checkName(firstName)} $lastName" }
+            firstName?.let { return@getName "$firstName ${checkName(lastName)}" }
+        }
+
+        return "$firstName $lastName"
+    }
+
+    /**
+     * 判断名字是否为空
+     */
+    private fun hasEmpty(vararg strArray: String?): Boolean {
+        for (str in strArray) {
+            str ?: return true
+        }
+        return false
+    }
+
+    fun checkName(name: String?): String = name ?: "unknow"
+
+
+    // 定义一个方法
+    // 创建了一个名为say()的函数，它接受一个String类型的参数，并返回一个String类型的值
+    fun say(str: String): String {
+
+        return str
+    }
+
+    // 缩略版
+    fun sayAgain(str: String): String = str
+
 }
