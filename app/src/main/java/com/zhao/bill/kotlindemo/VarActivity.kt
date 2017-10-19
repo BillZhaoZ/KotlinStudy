@@ -18,13 +18,21 @@ class VarActivity : AppCompatActivity() {
         val price: Double = 20.3
         val name: String = "大米"
 
-        tv_var.text = "名称:$name + 单价:$price" + "数量：$quanity"
+        tv_var.text = "名称:$name + 单价:$price + 数量：$quanity"
 
-
+        // 内部方法调用
         val firstName: String = "zhuang"
         val lastName: String? = "zhao"
 
         tv_show_method.text = "my name is ${getName(firstName, lastName)}"
+
+
+        // 类的方法调用
+        /* val person = Person("Bill")
+         person.sayHello()*/
+
+        val person = Person("jack")
+        person.sayHello()
     }
 
     /**
@@ -47,11 +55,11 @@ class VarActivity : AppCompatActivity() {
         for (str in strArray) {
             str ?: return true
         }
+
         return false
     }
 
     fun checkName(name: String?): String = name ?: "unknow"
-
 
     // 定义一个方法
     // 创建了一个名为say()的函数，它接受一个String类型的参数，并返回一个String类型的值
