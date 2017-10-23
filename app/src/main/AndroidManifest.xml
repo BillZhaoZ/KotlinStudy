@@ -20,6 +20,12 @@
         </activity>
         <activity android:name=".VarActivity">
         </activity>
+        <activity android:name=".EditTextActivity">
+        </activity>
+        <activity android:name=".KotlinLessonActivity">
+        </activity>
+        <activity android:name=".PracticeActivity">
+        </activity>
     </application>
 
 </manifest>
