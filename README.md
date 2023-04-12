@@ -24,7 +24,7 @@ Kotlin官网
     
     http://kotlinlang.org
 
-Kotlin-github地址 
+Kotlin-github地址
 
     https://github.com/JetBrains/kotlin
 
