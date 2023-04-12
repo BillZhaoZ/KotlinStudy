@@ -8,6 +8,7 @@ kotlin 语言的集成和学习
         Kotlin可以编译成Java字节码，也可以编译成JavaScript，方便在没有JVM的设备上运行。
         谷歌 I/O 2017宣布将支持 Kotlin 作为Android开发的第一语言
         
+
         目前AndroiStudio 3.0预览版本已自带Kotlin插件，无需做任何的配置即可开始体验。但如果是之前的版本，则需要我们自行做些配置。
         通过 File | Settings | Plugins | Install JetBrains plugin… 搜索并安装 Kotlin 插件。   
         插件安装完成后（需要重启下AndroidStudio），就开始创建我们的第一个Kotlin项目了
