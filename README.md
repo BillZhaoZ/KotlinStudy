@@ -40,7 +40,6 @@ Kotlin-github地址
         apply plugin: 'kotlin-android-extensions'
         
         compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-        
   
  具体的Module的 gradle文件
      
