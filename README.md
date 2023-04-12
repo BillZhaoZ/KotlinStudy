@@ -28,13 +28,11 @@ Kotlin-github地址
 
     https://github.com/JetBrains/kotlin
 
-
  1.集成
     
     使用Android Studio下载Kotlin相关插件
     执行 Settings -> plugins -> BrowseRepositories中搜索“Kotlin”
-    
-    
+
     gradle文件：
         apply plugin: 'kotlin-android'
         apply plugin: 'kotlin-android-extensions'
